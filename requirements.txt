@@ -3,5 +3,4 @@ numpy
 matplotlib 
 plotly 
 groq 
-fdf 
 openpyxl
