@@ -15,7 +15,8 @@ st.set_page_config(page_title="Electricity Load Optimizer", layout="wide")
 st.markdown("<h1 style='text-align: center;'>⚡ Electricity Load Optimizer</h1><hr>", unsafe_allow_html=True)
 
 # --- API Key (REPLACE WITH YOUR NEW KEY AFTER REGENERATING) ---
-GROQ_API_KEY = "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"  # Replace with your NEW key
+import os
+api_key=os.getenv("GRO_API_KEY")  # Replace with your NEW key
 client = Groq(api_key=GROQ_API_KEY)
 
 # --- Function to auto-detect and rename ALL columns ---
