@@ -6,7 +6,6 @@ import plotly.graph_objects as go
 from groq import Groq
 import base64
 from io import BytesIO
-from fpdf import FPDF
 import datetime
 import warnings
 
