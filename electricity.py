@@ -16,7 +16,6 @@ st.markdown("<h1 style='text-align: center;'>⚡ Electricity Load Optimizer</h1>
 # --- API Key (REPLACE WITH YOUR NEW KEY AFTER REGENERATING) ---
 import os
 api_key=os.getenv("GROQ_API_KEY ")  # Replace with your NEW key
-client = Groq(api_key=GROQ_API_KEY)
 
 # --- Function to auto-detect and rename ALL columns ---
 def detect_and_rename_columns(df):
